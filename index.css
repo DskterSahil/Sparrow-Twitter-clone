@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F67B1;
+}
+
+/* Front Page */
+
+.logo {
+    width: 50%;
+    border-radius: 50%;
+    padding-top:0px ;
+}
+
+.heading-front {
+    
+    font-size: 38px;
+    color: #eeeeee;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.para-front {
+    color: #dddddd;
+    font-size: 18px;
+    margin-top: 0; 
+    margin-bottom: 30px;
+}
+
+.front-container {
+    width: 365px;
+    text-align: center;
+}
+
+.front-btn {
+    background-color: #003b6d;
+    border: none;
+    color: white;
+    padding: 11px 25px;
+    border-radius: 20px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.front-btn:hover ,
+.front-btn:focus {
+    background-color: #393E46;
+}
+        
